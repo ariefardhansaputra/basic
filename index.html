@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Register Page</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <!--
+      Need a visual blank slate?
+      Remove all code in `styles.css`!
+    -->
+    <link rel="stylesheet" href="styles.css" />
+    <script type="module" src="script.js"></script>
+  </head>
+  <body>
+    <nav>
+      <a href="/" aria-current="page">Home</a>
+      <a href="/page2.html">Other page</a>
+    </nav>
+    <main>
+      <h1>Form Register JValley</h1>
+      <form autocomplete="off" action="success.html">
+      <div>
+        <label for="name">Fullname : </label>
+        <input required id="name" type="text" placeholder="Input fullname" />
+      </div>
+      <div>
+        <label for="phone">Phone number : </label>
+        <input required id="phone" type="tel" placeholder="Input phone number" />
+      </div>
+      <div>
+        <label for="email">Email : </label>
+        <input required id="email" type="email" placeholder="Input email" />
+      </div>
+      <div>
+        <label for="password">Password : </label>
+        <input required id="password" type="password" placeholder="Input password" />
+      </div>
+      <div>
+        <label for="address">Address : </label>
+        <input required id="address" type="text" placeholder="Input address" />
+      </div>
+      <div>
+        <label for="description">Description : </label>
+        <textarea required type="text" id="description" cols="35" rows="5" placeholder="Description self experience"></textarea>
+      </div>
+      <!-- <div>
+          <p>Jenis Kelamin</p>
+          <label for="male"
+            >Male
+            <input id="male" name="gender" type="radio" />
+          </label>
+          <label for="female"
+            >Female
+            <input id="female" name="gender" type="radio" />
+          </label>
+        </div> -->
+      <button type="submit" id="btn_register">Register</button>
+    </main>
+    <footer>
+      Copyright @ PT JValley Indonesia
+    </footer>
+  </body>
+</html>
